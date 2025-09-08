@@ -1,0 +1,33 @@
+# Add to your .gitignore
+tmp/
+build-errors.log
+
+# Create .gitignore file with these contents
+echo "# Dependencies
+vendor/
+node_modules/
+
+# Build files
+tmp/
+bin/
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Binary
+main.exe" > .gitignore
