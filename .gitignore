@@ -30,4 +30,4 @@ Thumbs.db
 *.swo
 
 # Binary
-main.exe" > .gitignore
+main.exe" > .gitignoretls/
