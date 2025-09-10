@@ -81,11 +81,6 @@ func (m *UserModel) Authenticate(email, password string) (int, error) {
 	return id, nil
 }
 
-// We'll use the Exists method to check if a user exists with a specific ID.
-func (m *UserModel) Exists(id int) (bool, error) {
-	return false, nil
-}
-
 func (m *UserModel) Exists(id int) (bool, error) {
 	var exists bool
 	stmt := "SELECT EXISTS(SELECT true FROM users WHERE id = ?)"
